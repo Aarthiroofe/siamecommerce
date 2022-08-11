@@ -1,0 +1,63 @@
+
+    <hr class="topline">
+    <div class="row">
+    <div class="detailsleft" *ngIf="newdata;">
+        <div class=" row ">
+         <div class="item_1">
+             <h4>{{newdata.productname1}}{{newdata.productname2}}</h4>
+             <p>{{newdata.price}}RWF</p>
+         </div>
+         <div class=" item_2  ">
+             <img src="./assets/heart.png" alt="">
+        </div>
+        </div>
+        <div>
+            <img class="bigimage"src={{newdata.pimage}} alt="">
+            <div style="    margin-left: 10%;" >
+                <img (click)="subimage1()" src={{newdata.subimage1}}  class="subimage" style="cursor:pointer ;">
+                <img (click)="subimage2()" src={{newdata.subimage2}}  class="subimage"style="cursor:pointer ;">
+                <img (click)="subimage3()" src={{newdata.subimage3}}  class="subimage" style="cursor:pointer ;">
+                <img (click)="subimage4()" src={{newdata.subimage4}}  class="subimage" style="cursor:pointer ;">
+            </div>
+            
+        </div>
+    </div>
+    <div class="detailsright " *ngIf="newdata;">
+        <div>
+            <h2 >Description</h2>
+            <p> {{newdata.description}}</p>
+        </div>
+        
+        <hr class="hr_line">
+         <div>
+            <div class="size">
+                <h4>Size</h4>
+                <button class="sizebutton">32</button>
+                <button class="sizebutton">33</button>
+                <button class="sizebutton">34</button>
+                <button class="sizebutton">35</button>
+                <button class="sizebutton">36</button>
+                <button class="sizebutton">37</button>
+                <button class="sizebutton">38</button>
+                <button class="sizebutton">39</button>
+                <button class="sizebutton">40</button>
+                <button class="sizebutton">41</button>
+                <button class="sizebutton">42</button>
+            
+            </div>
+         </div>
+         <div class="row">
+            <div class="item_3">
+                <table>
+                    <td (click)="decrement()" style="cursor: pointer;"><p>-</p></td>
+                    <td><button type="number" class="count">{{count}}</button></td>
+                    <td (click)="increment()" style="cursor: pointer;"><p>+</p></td>
+                </table>
+            </div>
+            <div class="item_4">
+                <button class="Sub_item_4" (click)="addtocart()" >Add to cart</button>
+            </div>
+         </div>
+    </div>
+</div> 
+

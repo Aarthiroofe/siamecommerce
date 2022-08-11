@@ -1,0 +1,255 @@
+
+.first{
+    background:linear-gradient(to right bottom, #fdfeff, #f4f6f8, #eceef1, #e3e6ea, #dbdee3);
+}
+
+.Sub_item{
+    text-align: initial;
+   
+    font-size: 60px;
+}
+.item_1{
+    padding-top: 100px;
+    padding-left: 102px;
+    width: 50%;
+}
+.item_1right{
+    width: 50%;
+}
+.Sub_item_2{
+    margin-top:30px;
+}
+.Sub_item_3{
+    margin-top:20px;
+}
+.Sub_item_4{
+    border: none;
+    color: aliceblue;
+    background-color: #d11818;
+    font-size: 16px;
+    height: 30px;
+    width: 100px;
+    margin-top: 30px;
+}
+.Sub_item_5{
+    text-align: center;
+}
+.Sub_item_6{
+    border: 2px solid white;
+    margin: 10px;
+    border-radius: 2px;
+    background-color: white;
+}
+.subimages{
+    // margin-left: 50%;
+    // padding-bottom: 60px;
+    display: flex;
+
+}
+.item_2{
+    position: absolute;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    margin-top: -4%;
+    margin-left: 24%;
+}
+.findthat{
+    margin-top: 5%;
+}
+.product {
+    background-color: rgb(248 249 251);
+    margin-top: 40px;
+    text-align: center;
+}
+.image{
+    object-fit:contain;
+    height: 100px;
+    width: 100px;
+}
+.body{
+    padding: 30px;
+    margin-top: 4%;
+}
+.Sub_item_6{    text-align: right;
+    font-weight: 500;
+    color: #3c3b3b;
+    font-size: revert;
+}
+.Sub_item_7{
+    text-align: center;
+}
+.Sub_item_7 h2{
+    font-weight: 700;
+    font-size: 38px;
+}
+.Sub_item_7 p {
+    font-size: 14px;
+    color: gray;
+}
+.Sub_item_8 {
+    text-align: inherit;
+    padding-left: 35%;
+}
+.Currated{padding-top: 42%;}
+.menimage{display:flex ;}
+.flyimage{display: flex;}
+.flyimage h3{padding-top: 12%;}
+.Sub_item_10{
+    padding-top: 14%;
+    padding-left: 10%;}
+// .imagesub{ position: absolute;}
+.Sub_item_9{text-align: center;    margin-top: 25%;}
+.Sub_item_11{margin: 7%;}
+.Sub_item_12{padding: 0 7%; font-size: 15px;}
+.Sub_item_13{display: flex;}
+.Sub_item_14{display: flex;}
+.Sub_item_15{font-size: 15px;padding: 0 7%; margin-top:15px ;}
+.socialicons{padding: 0 15px;}
+ .bottomimage{padding: 10px;
+    margin-left: 0%;
+    margin-bottom: 20px;}
+@media screen  and (min-width:375px)and (max-width:991px){
+    .Sub_item_9{
+        text-align: center;    margin-top: 0%;}
+        .Sub_item_10{
+            padding-top: 7%;
+            padding-left: 30%;}
+}
+.viewall{
+    cursor: pointer;
+}
+.wrapper{
+    width: 10rem;
+    height: 5rem;
+}
+.smallimages{
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 5px solid #d1cece;
+    border-radius: 15px;
+}
+.bigimge{
+    height: 25rem;
+    width: 30rem;
+
+}
+.list{
+    width: 25%;
+}
+.relativeimages{
+    width: 25%;
+}
+@media screen  and (min-width:900px)and (max-width:1300px){
+   .productimage{
+    height: 13rem;
+    width: 13rem;
+   }
+   .sub5{
+    width: 40%;
+   }
+   .sub6{
+    width: 30%;
+   }
+   .sub7{
+    width: 30%;
+   }
+}
+.sub1{
+    width: 40%;
+}
+.sub2{
+    width: 30%;
+}
+.sub3{
+    width: 30%;
+}
+.sub4{
+    width: 50%;
+}
+@media screen  and (min-width:900px)and (max-width:1800px){
+    .sub5{
+     width: 40%;
+    }
+    .sub6{
+     width: 30%;
+    }
+    .sub7{
+     width: 30%;
+    }
+    .sub1{
+        width: 34%;
+    }
+    .sub2{
+        width: 30%;
+    }
+    .sub3{
+        width: 30%;
+    }
+ }
+ @media screen  and (min-width:300px)and (max-width:940px){
+    .item_1{
+        padding-top: 50px;
+       padding-left: 50px;
+        width: 100%;
+    }
+    .item_1right{
+        width: 100%;
+    }
+    .sub4{
+        width: 100%;
+    }
+    }
+    @media screen  and (min-width:250px)and (max-width:500px){
+        .bigimge{
+            height: 20rem;
+            width: 15rem;
+        }
+        .relativeimages{
+            width: 100%;
+        }
+        .productimage{
+            height: 10rem;
+            width: 10rem;
+           }
+           .Sub_item_8{
+            text-align: inherit;
+            padding-left: 15%;
+        }
+        .Sub_item_10 {
+            padding-top: 4%;
+            padding-left: 18%;
+        }
+    }
+    @media screen  and (min-width:700px)and (max-width:900px){
+        .productimage{
+         height: 13rem;
+         width: 13rem;
+        }
+        .list{
+            width:50%;
+        }
+        .sub1{
+            width: 50%;
+        }
+        .sub2{
+            width: 50%;
+        }
+        .sub3{
+            width: 100%;
+        }
+     }
+     @media screen  and (min-width:300px)and (max-width:699px){
+        .list{
+            width:100%;
+        } 
+        .sub1{
+            width: 100%;
+        }
+        .sub2{
+            width: 100%;
+        }
+        .sub3{
+            width: 100%;
+        }
+     }
