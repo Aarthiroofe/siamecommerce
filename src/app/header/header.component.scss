@@ -31,3 +31,8 @@
     background-color: red;
     font-weight: 900;
 }
+@media screen  and (min-width:280px)and (max-width:767px){
+    .notification{
+        top: 13rem;
+    }
+}
